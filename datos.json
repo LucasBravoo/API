@@ -1,0 +1,91 @@
+{
+  "evento": [
+    {
+      "idEvento": 1,
+      "Nombre_del_evento": "juntada veraniega",
+      "Descripción_detallada": "Una juntada de verano para alumnos de secundaria.",
+      "Fecha_y_hora_de_inicio": "2024-01-05 11:00",
+      "Fecha_y_hora_de_finalización": "2024-01-05 22:00",
+      "Ubicación": "paseo de la costa",
+      "Tipo_de_evento": "juntada",
+      "Estado_del_evento": "Activo",
+      "Capacidad_máxima_de_asistentes": 1000,
+      "imagen_del_evento": "",
+      "Organizador": "centro de estudiantes",
+      "Patrocinadores": ["smirnoff.arg", "speed"],
+      "Categorías_o_etiquetas": ["juntada", "juvenil"],
+      "Enlace_a_un_sitio_web_del_evento": ""
+    },
+    {
+      "idEvento": 2,
+      "Nombre_del_evento": "fiesta de egresados",
+      "Descripción_detallada": "fiesta para los egrasados de sexto año.",
+      "Fecha_y_hora_de_inicio": "2024-10-01 20:00",
+      "Fecha_y_hora_de_finalización": "2024-10-01 06:00 ",
+      "Ubicación": "la finca",
+      "Tipo_de_evento": "fiesta",
+      "Estado_del_evento": "Activo",
+      "Capacidad_máxima_de_asistentes": 1000,
+      "imagen_del_evento": "",
+      "Organizador": "la nonnina",
+      "Patrocinadores": ["smirnoff.arg", "speed"],
+      "Categorías_o_etiquetas": ["fiesta", "egresado"],
+      "Enlace_a_un_sitio_web_del_evento": ""
+    }
+  ],
+  "participante": [
+    {
+      "id_participante": 1,
+      "nombre_completo": "Bravo Lucas",
+      "correo_electronico": "lucasb@gmail.com",
+      "telefono": "2996376783",
+      "estado_participante": "Activo"
+    },
+    {
+      "id_participante": 2,
+      "nombre_completo": "Joaquin Troncoso",
+      "correo_electronico": "JoaquinT@gmail.com",
+      "telefono": "5983419",
+      "estado_participante": "Activo"
+    },
+    {
+      "id_participante": 3,
+      "nombre_completo": "Nazareno Alvarez",
+      "correo_electronico": "NazarenoA@gmail.com.com",
+      "telefono": "6794850",
+      "estado_participante": "Activo"
+    }
+  ],
+  "lugares": [
+    {
+      "idLugar": 1,
+      "nombre": "bodas el pelado",
+      "direccion": "saavedra, kilka",
+      "capacidad": 100,
+      "descripcion": "Un amplio salón ideal para bodas y conferencias.",
+      "imagen": "",
+      "estadoLugar": "Activo",
+      "equipamiento": ["Proyector", "Sonido", "Sillas", "Mesas"]
+    },
+    {
+      "idLugar": 2,
+      "nombre": "gordolandia",
+      "direccion": "Avenida brasil, alemania",
+      "capacidad": 300,
+      "descripcion": "gordos comiendo.",
+      "imagen": "",
+      "estadoLugar": "Activo",
+      "equipamiento": ["bebidas", "comida", "mas comida"]
+    },
+    {
+      "idLugar": 3,
+      "nombre": "partido",
+      "direccion": "gatica 2934",
+      "capacidad": 60,
+      "descripcion": "partido de futbool.",
+      "imagen": "",
+      "estadoLugar": "inactivo",
+      "equipamiento": ["futbol"]
+    }
+  ]
+}
